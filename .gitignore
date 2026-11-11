@@ -1,0 +1,20 @@
+# Ignore everything in the root folder
+/*
+
+# Allow our two projects
+!/AspNetBasics/
+!/gamestorefrontend/
+
+# Allow .gitignore
+!/.gitignore
+
+# Ignore generated files
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/.vs/
+
+# Ignore local secrets
+**/.env
+**/.env.*

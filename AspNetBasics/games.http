@@ -1,0 +1,15 @@
+POST https://localhost:7187/games
+Content-Type: application/json
+
+{
+  "name": "Minecraft",
+  "price": 299
+}
+
+###
+
+GET https://localhost:7187/games/2
+
+###
+
+GET https://localhost:7187/games/1
